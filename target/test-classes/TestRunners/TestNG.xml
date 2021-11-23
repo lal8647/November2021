@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Automation Suie">
+  <test name="My TestNG test" verbose="2">
+    <classes>
+      <class name="TestNGPackage.DependsOnMethod"/>
+      <class name="TestNGPackage.ExpectedExceptionConcept"/>
+      <class name= "TestNGPackage.InvocationCountConcept"/>
+      <class name= " TestNGPackage.LoginTest"/>
+       <class name= " TestNGPackage.PriorityTest"/>
+    </classes>
+  </test>
+</suite> 
+            
